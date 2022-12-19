@@ -1,10 +1,171 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="pt-br">
 <head>
-<meta charset="UTF-8"/>
-<title>Joilton Melo - UI Design & Front-end </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Joilton Melo - Tailwind css</title>
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<link rel="icon" type="image/png" sizes="32x32" href="./img/favicon.png">
+
+<style type="text/css">
+@media (max-width: 640px) {
+
+#card-top {
+display:block;
+
+}
+
+#card-top2 {
+flex-direction: column;
+text-align: center;
+vertical-align: center;
+
+}
+
+#card-top3 {
+margin:0 auto;
+margin-left: 0px;
+margin-left: 50px;
+}
+
+#card-top4 {
+display:block;
+margin-top: 14px;
+}
+
+#card-top5 {
+margin-right: 31px;
+}
+
+#card-top6 {
+margin-bottom:14px;
+}
+
+#card-top7 {margin-left: 5px;}
+
+button {
+width:100%;
+}
+
+}
+
+</style>
+
 </head>
-<body>
-<h1>Hello There! Joilton Melo here!</h1>
+
+<body class="p-5 bg-gray-800">
+
+<!-- Começo Box perfil  -->
+
+<section class="width-full">
+<div class="container mx-auto">  
+<h1 class="text-4xl font-semibold pt-5 text-white">UI design & Front-end Jr </h1>
+
+<div class="bg-violet-700 mt-10 rounded-lg p-10 pr-12 flex items-center justify-between lg:flex-row md:flex-col sm:flex-col sm:flex-wrap" id="card-top2">
+
+<div class="flex justify-items-center" id="card-top">
+<!-- Div perfil  -->
+<div class="sm:align-content-center" id="card-top3">
+<div class="w-24 h-24 bg-white rounded-full object-cover bg-cover relative bg-[url('https://media.licdn.com/dms/image/C4E03AQEXMdFbSerxwQ/profile-displayphoto-shrink_800_800/0/1653269647813?e=1677110400&v=beta&t=fEx0E7u6qkoPU9SBzCTeQSeetSqCUAKo2gQl_GpUROA')]">
+<div class="absolute w-5 h-5 bg-lime-400 rounded-full ml-20 mt-16 border-2 border-violet-700"></div>
+</div>
+</div>
+
+<!-- Div Text list Div perfil  -->
+<div class="ml-10 mt-3" id="card-top5">
+<ul class="text-white">
+<li class="font-semibold text-lg justify-items-center flex" id="card-top7">Joilton Melo</li>
+<li class="text-sm">Designer</li>
+<li class="text-sm">Salvador, BA</li>
+</ul>
+</div>
+
+</div>
+
+<!-- Botões -->
+<div class="flex justify-items-center content-center lg:space-x-5 md:space-x-4 lg:pt-0 md:pt-10 sm:pt-10 xs:pt-5 lg:flex-row md:flex-row sm:flex-col sm:gap-y-3" id="card-top4">
+<a href="https://www.behance.net/joiltonmelo" target="_blank" class="pl-5 pr-5 pt-2 pb-2 rounded justify-items-center flex border-1 border-white border bg-transparent text-white hover:bg-violet-800" id="card-top6"><img src="./img/fa-solid-behance.svg" class="mr-2">Behance</a>
+<a href="https://github.com/joiltonmelo" target="_blank" class="pl-5 pr-5 pt-2 pb-2 rounded justify-items-center flex border-1 border-white border bg-transparent text-white hover:bg-violet-800" id="card-top6"><img src="./img/fa-solid-github.svg" class="mr-2">Github</a>
+<a href="https://www.linkedin.com/in/joiltonmelo/" target="_blank" class="pl-5 pr-5 pt-2 pb-2 rounded justify-items-center flex border-1 border-white border bg-transparent text-white hover:bg-violet-800" id="card-top6"><img src="./img/fa-solid-linkedin.svg" class="mr-2">Linkedin</a>
+<a href="mailto:joiltonvetor@gmail.com" target="_blank" class="pl-5 pr-5 pt-2 pb-2 rounded justify-items-center flex border-1 border-white border bg-transparent text-white hover:bg-violet-800"><img src="./img/fa-solid-email.svg" class="mr-2">Email</a>
+</div>
+
+
+</div>
+  
+</div>
+</section>
+
+<!-- Final Box perfil  -->
+
+<!-- Inicio Box Cards  -->
+<section class="mt-10">
+<div class="container mx-auto flex space-x-4 ">
+
+
+<div class="max-w-sm bg-white border-gray-400 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+    <a href="https://joiltonmelo.github.io/andressakaori" target="_blank">
+        <img class="rounded-t-lg" src="./img/image-1.jpg" alt="Artista Portfólio - Css + HTML + Js" />
+    </a>
+    <div class="p-5">
+        <a href="https://joiltonmelo.github.io/andressakaori" target="_blank">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Artista Portfólio - Css + HTML + Js </h5>
+        </a>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Projeto experimental de estudo para ampliar os conhecimentos práticos.</p>
+        <a href="https://joiltonmelo.github.io/andressakaori" class="inline-flex items-center px-5 py-2 text-sm font-medium text-center text-white bg-violet-700 rounded-lg hover:bg-violet-800 focus:ring-4 focus:outline-none focus:ring-violet-300 dark:bg-violet-600 dark:hover:bg-violet-700 dark:focus:ring-violet-800" target="_blank">
+            Ver projeto
+            <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+        </a>
+    </div>
+</div>
+
+<div class="max-w-sm bg-white border border-gray-400 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+    <a href="https://joiltonmelo.github.io/perfil-medico" target="_blank">
+        <img class="rounded-t-lg" src="./img/image-2.jpg" alt="Perfil Médico - HTML + Tailwind Css" />
+    </a>
+    <div class="p-5">
+        <a href="https://joiltonmelo.github.io/perfil-medico" target="_blank">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Perfil Médico - HTML + Tailwind Css </h5>
+        </a>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Projeto experimental de estudo para ampliar os conhecimentos práticos.</p>
+        <a href="https://joiltonmelo.github.io/perfil-medico" class="inline-flex items-center px-5 py-2 text-sm font-medium text-center text-white bg-violet-700 rounded-lg hover:bg-violet-800 focus:ring-4 focus:outline-none focus:ring-violet-300 dark:bg-violet-600 dark:hover:bg-violet-700 dark:focus:ring-violet-800" target="_blank">
+            Ver projeto
+            <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+        </a>
+    </div>
+</div>
+
+<div class="max-w-sm bg-white border border-gray-400 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+    <a href="https://www.dcontroll.com.br/" target="_blank">
+        <img class="rounded-t-lg" src="./img/image-3.jpg" alt="Site DControll - Css + HTML + Js" />
+    </a>
+    <div class="p-5">
+        <a href="https://www.dcontroll.com.br/">
+            <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Site DControll - Css + HTML + Js </h5>
+        </a>
+        <p class="mb-3 font-normal text-gray-700 dark:text-gray-400">Projeto real no ar.</p>
+        <a href="https://www.dcontroll.com.br/" class="inline-flex items-center px-5 py-2 text-sm font-medium text-center text-white bg-violet-700 rounded-lg hover:bg-violet-800 focus:ring-4 focus:outline-none focus:ring-violet-300 dark:bg-violet-600 dark:hover:bg-violet-700 dark:focus:ring-violet-800" target="_blank">
+            Ver projeto
+            <svg aria-hidden="true" class="w-4 h-4 ml-2 -mr-1" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+        </a>
+    </div>
+</div>
+
+
+</div>
+</section>
+
+<!-- Final Box Cards  -->
+
+
+<p class="text-sm text-gray-300 text-center items-center mt-10">Joilton Melo © 2023 - Portfólio Github</p>
+
+<script type="text/javascript" src="./js/tailwind.config.js"></script>
+
+
+<!-- UI Desing and Front-end by Joilton Melo -->
+
 </body>
 </html>
