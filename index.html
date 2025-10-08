@@ -1,29 +1,63 @@
 <!DOCTYPE html>
-<html lang="pt">
-
+<html class="scroll-smooth">
 <head>
-    
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joilton Melo - Designer Gráfico e Web Designer</title>
-    <link rel="icon" href="./img/favicon.png" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Tailwind CSS loaded via CDN -->
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Google Fonts (Inter) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
 
-<meta name="description" content="Oferecemos uma gama completa de serviços de desenvolvimento web e mobile, incluindo criação de sites responsivos, aplicativos móveis, e-commerce, e soluções sob medida para atender às necessidades específicas de cada cliente.">
-<meta name="keywords" content="ui, ui design, ux, ux design,  frontend, backend, programação, design, ui design, projetos web, web design, design gráfico, ">
+    <title>Joilton Melo - Design Gráfico e Web Design | UI Design e Frontend UI</title>
 
+    <meta name="description" content="Joilton Melo - Design Gráfico e Web Design | UI Design e Frontend UI  ">
+    <meta name="keywords" content="ui, ux, ui design, ux design, product design, graphic design, design gráfico, designer gráfico, web design, web designer, frontend">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon.png">
+
+    <style>
+        * {font-family: inter, serif;}
+    </style>
+
+    <!-- Schema.org structured data for SEO -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "LocalBusiness",
+            "name": "Joilton Melo",
+            "description": "Design Gráfico e Web Design",
+            "url": "https://joiltonmelo.com.br/",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "R. Fernando Falcão, 212 - Vila Claudia, São Paulo - SP",
+                "addressLocality": "São Paulo",
+                "addressRegion": "SP",
+                "postalCode": "03168-009",
+                "addressCountry": "BR"
+            },
+            "contactPoint": {
+                "@type": "ContactPoint",
+                "telephone": "+55-71-99912-2306",
+                "contactType": "Customer Service"
+            }
+        }
+    </script>
 </head>
 
 
 
-<body class="max-w-screen-xl mx-auto px-5 py-5 bg-gray-950">
+<body class="max-w-screen-xl mx-auto lg:px-10 px-5 py-5 bg-black">
 
 <header class="pt-8 max-md:pt-2">
 
     <nav class="flex justify-between items-center max-md:flex-col max-md:items-start max-md:gap-6">
-    <img src="./img/logo-jm-white.svg" alt="Logo Brick">   
-    <div class="text-gray-50 font-semibold flex gap-8 flex items-center"> 
+    <img src="./img/logo-jm-white.svg" alt="Logo Joilton Melo">   
+    <div class="text-gray-50 font-semibold flex gap-8 flex items-center max-md:hidden"> 
     <a href="https://wa.me/557199122306?text=Ol%C3%A1%20Joilton!%20Gostaria%20de%20fazer%20um%20or%C3%A7amento%20sobre%20um%20projeto..." class="hover:opacity-70 py-2 uppercase text-xs flex items-center gap-2" target="-blank"><img src="./img/icon-whatsapp.svg" alt="Whatsapp">Whatsapp</a>
     <a href="mailto:joiltonvetor@gmail.com" class="hover:opacity-70 py-2 uppercase text-xs flex items-center gap-2" target="-blank"><img src="./img/icon-email.svg" alt="Email">Email</a>
     </div>
@@ -31,29 +65,30 @@
 
 </header>
 
-<main class="flex justify-between items-center mt-10 max-md:flex-col max-md:mt-14 mt-20">
+<main class="flex justify-between items-center gap-10 mt-10 max-md:flex-col max-md:mt-14 mt-20">
 
-    <div class=" flex flex-col justify-between gap-20 max-md:gap-10"> 
+    <div class=" flex flex-col justify-between gap-12 max-md:gap-10"> 
 
     <div class=" max-w-[470px] flex flex-col gap-6">
 
     <div class="flex items-center gap-6 mt-4  pt-4">
-    <span class="flex items-center gap-2 text-white font-medium text-sm"><img src="./img/flag-br.svg" title="Brasil" alt="Bandeira Brasil">Brasil</span>
-    <span class="flex items-center gap-2 text-white font-medium text-sm"><img src="./img/flag-pt.svg" title="Portugal" alt="Bandeira Portugal">Portugal</span>
-    <span class="flex items-center gap-2 text-white font-medium text-sm"><img src="./img/flag-eua.svg" title="EUA" alt="Bandeira EUA">EUA</span>
+    <span class="flex items-center gap-3 text-white font-medium text-sm"><img src="./img/flag-br.svg" class="mb-0.5" title="Brasil" alt="Bandeira Brasil">Brasil</span>
+    <span class="flex items-center gap-3 text-white font-medium text-sm"><img src="./img/flag-pt.svg" class="mb-0.5" title="Portugal" alt="Bandeira Portugal">Portugal</span>
+    <span class="flex items-center gap-3 text-white font-medium text-sm"><img src="./img/flag-lux.svg" class="mb-0.5" title="Portugal" alt="Bandeira Portugal">Luxembourg</span>
+    <span class="flex items-center gap-3 text-white font-medium text-sm"><img src="./img/flag-eua.svg" class="mb-0.5" title="EUA" alt="Bandeira EUA">EUA</span>
     </div>
   
-    <h1 class="text-5xl max-md:text-4xl text-gray-50 font-bold uppercase">Designer Gráfico <span class="text-violet-700">&</span> Web Designer</h1>
-    <p class="text-lg max-md:text-lg text-gray-50 opacity-70 leading-snug">Designer com carreira de +9 anos, Joilton Melo se desenvolveu em UI Design e Frontend projetando para algumas empresas como InWise, Camaleão, IAB RS, Concreta Eng, DControll, Servtem e Peppers Cafe.</p>
+    <h1 class="text-5xl max-md:text-4xl text-gray-50 font-bold uppercase">Design Gráfico <span class="text-violet-700">&</span> Web Design</h1>
+    <p class="text-lg max-md:text-lg text-gray-50 opacity-80 leading-snug">Com carreira de +9 anos, Joilton Melo se desenvolveu em UI Design, Frontend e Design Gráfico projetando para algumas empresas como InWise, Camaleão, IAB RS, Concreta Eng, DControll e Peppers Café.</p>
     
     <div class="flex items-center gap-5 mt-4 max-md:flex-col">
-    <a href="https://wa.me/557199122306?text=Ol%C3%A1%20Joilton!%20Gostaria%20de%20fazer%20um%20or%C3%A7amento%20sobre%20um%20projeto..." class="bg-violet-700 hover:bg-violet-800 font-semibold flex text-gray-50 text-xs items-center justify-center gap-2 py-4 px-4 w-[240px] max-md:w-full rounded-full uppercase" target="-blank"><img src="./img/icon-whatsapp.svg" alt="Chamar no Whatsapp">WhatsApp</a>
-    <a href="https://www.behance.net/joiltonmelo" class="bg-gray-900 hover:bg-gray-950 font-semibold flex text-gray-50 text-xs items-center justify-center gap-2 py-4 px-4 w-[240px] max-md:w-full rounded-full uppercase" target="-blank"><img src="./img/behance.png" alt="Chamar no Whatsapp" class="h-4">Behance</a>
+    <a href="https://wa.me/557199122306?text=Ol%C3%A1%20Joilton!%20Gostaria%20de%20fazer%20um%20or%C3%A7amento%20sobre%20um%20projeto..." class="bg-violet-700 hover:bg-violet-800 font-semibold flex text-gray-50 text-xs transition-all duration-500 items-center justify-center gap-2 hover:gap-3 py-4 px-4 w-[240px] max-md:w-full rounded-full uppercase" target="-blank"><img src="./img/icon-whatsapp.svg" alt="Chamar no Whatsapp">WhatsApp</a>
+    <a href="mailto:joiltonvetor@gmail.com" class="bg-gray-700 hover:bg-gray-800 font-semibold flex text-gray-50 text-xs transition-all duration-500 items-center justify-center gap-2 hover:gap-3 py-4 px-4 w-[240px] max-md:w-full rounded-full uppercase" target="-blank"><img src="./img/icon-email.svg" alt="Email">Email</a>
     </div>
 
     </div>
 
-    <div class="max-md:mt-8 mt-0">
+    <div class="">
     <div class="flex items-center gap-2">
     <p class="text-gray-50 opacity-75 text-base">Alguns clientes que confiam na JM</p><span class="text-gray-50 uppercase max-md:hidden">+ 50 Clientes</span>
     </div>
@@ -62,54 +97,56 @@
     <img src="./img/logo-servtem.svg" alt="logo Servtem" title="SERVTEM" class="h-4.5">
     <img src="./img/logo-iab.svg" alt="logo iab RS" title="IAB RS - Instituto de Arquitetos do Brasil - Rio Grande do Sul">
     <img src="./img/logo-oilimp.svg" alt="logo OiLimp" title="Oi Limp" class="h-6">
-    <img src="./img/logo-peppers.svg" alt="logo Luan" title="Peppers Cafe" class="h-5">   
+    <img src="./img/logo-peppers.svg" alt="logo Luan" title="Peppers Cafe" class="h-4.5">   
     </div>
     </div>
 
     </div>
 
-    <!-- GALERIA -->
-    <div class="max-md:mt-20">
-      <img class="mySlides" src="./img/img-dcontroll.png" alt="DControll" class="rounded-lg" style="border-radius: 8px;">
-      <img class="mySlides" src="./img/img-peppers.png" alt="Peppers" class="rounded-lg" style="border-radius: 8px;">
-      <img class="mySlides" src="./img/img-linktwo.png"  alt="Linktwo" class="rounded-lg" style="border-radius: 8px;">
-      <img class="mySlides" src="./img/img-iab-rs.png" alt="IAB" class="rounded-lg" style="border-radius: 8px;">
-      <img class="mySlides" src="./img/img-luan.png" alt="Peppers Cafe" class="rounded-lg" style="border-radius: 8px;">
+    <div class="w-100 max-md:w-full max-md:h-100 h-130 rounded-xl hover:shadow-lg shadow-violet-500/50 transition-all duration-600 bg-black bg-[url('./img/joilton.png')] bg-cover bg-center">
     </div>
-    <!-- GALERIA -->
 </main>
 
-<footer class="border-t border-gray-800 py-8 mt-20">
+<div class="mt-20">
+<h2 class="text-white text-lg mb-2 font-medium mb-5">UI Design and Frontend</h2>
+<img src="./img/sitesgoogle-jm.webp" class="rounded-xl hover:shadow-lg shadow-violet-500/50 transition-all duration-600" alt="UI Design e Frontend">
+</div>
 
-<ul class=" flex justify-between items-center text-sm max-md:text-base max-md:flex-col max-md:gap-6">
-    <li class="text-gray-500 font-medium opacity-70">HTML</li>
-    <li class="text-gray-500 font-medium opacity-70">CSS</li>
-    <li class="text-gray-500 font-medium opacity-70">JavaScript</li>
-    <li class="text-gray-500 font-medium opacity-70">Tailwind CSS</li>
-    <li class="text-gray-500 font-medium opacity-70">UX Design</li>
-    <li class="text-gray-500 font-medium opacity-70">UI Design</li>
-    <li class="text-gray-500 font-medium opacity-70">Design Gráfico</li>
-    <li class="text-gray-500 font-medium opacity-70">Google Sites</li>
+<div class="mt-20">
+<h4 class="text-white text-lg mb-2 font-medium mb-5">UI Design and Frontend 2</h4>
+<img src="./img/websites-jm.webp" class="rounded-xl hover:shadow-lg shadow-violet-500/50 transition-all duration-600" alt="UI Design e Frontend 2">
+</div>
+
+<div class="mt-20">
+<h3 class="text-white text-lg mb-2 font-medium mb-5">Social Media Design</h3>
+<img src="./img/socialmedia-jm.webp" class="rounded-xl hover:shadow-lg shadow-violet-500/50 transition-all duration-600" alt="Social Media Design">
+</div>
+
+<div class="mt-20">
+<h5 class="text-white text-lg mb-2 font-medium mb-5">Logo Design</h5>
+<img src="./img/logodesign-jm.webp" class="rounded-xl hover:shadow-lg shadow-violet-500/50 transition-all duration-600" alt="Logo Design">
+</div>
+
+<div class="mt-20">
+<h6 class="text-white text-lg mb-2 font-medium mb-5">Logo e Identidade Visual</h6>
+<img src="./img/identidadevisual-jm.webp" class="rounded-xl hover:shadow-lg shadow-violet-500/50 transition-all duration-600" alt="Logo e Identidade Visual">
+</div>
+
+<footer class=" mt-20">
+<p class="text-lg mb-2 font-semibold mb-5 text-gray-500 opacity-80">Habilidades</p>
+<ul class=" flex justify-between items-center text-sm max-md:text-base max-md:flex-col max-md:gap-6 border-t border-gray-800 py-8">
+    <li class="text-gray-500 font-semibold opacity-80">HTML</li>
+    <li class="text-gray-500 font-semibold opacity-80">CSS</li>
+    <li class="text-gray-500 font-semibold opacity-80">JavaScript</li>
+    <li class="text-gray-500 font-semibold opacity-80">Tailwind CSS</li>
+    <li class="text-gray-500 font-semibold opacity-80">UX Design</li>
+    <li class="text-gray-500 font-semibold opacity-80">UI Design</li>
+    <li class="text-gray-500 font-semibold opacity-80">Design Gráfico</li>
+    <li class="text-gray-500 font-semibold opacity-80">Google Sites</li>
 </ul> 
 
 </footer>
 
-<script>
-var myIndex = 0;
-carousel();
-
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 2000); // Change image every 2 seconds
-}
-</script>
 
 </body>
 </html>

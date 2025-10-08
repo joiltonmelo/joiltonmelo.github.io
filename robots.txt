@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://joiltonmelo.com.br/sitemap.xml
