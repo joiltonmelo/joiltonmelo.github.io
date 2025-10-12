@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://joiltonmelo.com.br/sitemap.xml
+Sitemap: https://joiltonmelo.github.io/sitemap.xml
