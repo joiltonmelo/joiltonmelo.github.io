@@ -4,44 +4,44 @@
 
   <url>
     <loc>https://joiltonmelo.github.io/</loc>
-    <lastmod>2025-10-07</lastmod>
+    <lastmod>2025-10-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
 
   <url>
     <loc>https://joiltonmelo.github.io/cidades-brasil.html</loc>
-    <lastmod>2025-10-07</lastmod>
+    <lastmod>2025-10-11</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.1</priority>
+    <priority>2.0</priority>
   </url>
 
   <url>
     <loc>https://joiltonmelo.github.io/cidades-portugal.html</loc>
-    <lastmod>2025-10-07</lastmod>
+    <lastmod>2025-10-11</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.2</priority>
+    <priority>3.0</priority>
   </url>
 
   <url>
     <loc>https://joiltonmelo.github.io/cidades-eua.html</loc>
-    <lastmod>2025-10-07</lastmod>
+    <lastmod>2025-10-11</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.3</priority>
+    <priority>4.0</priority>
   </url>
 
   <url>
     <loc>https://joiltonmelo.github.io/cidades-luxembourg.html</loc>
-    <lastmod>2025-10-07</lastmod>
+    <lastmod>2025-10-11</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.4</priority>
+    <priority>5.0</priority>
   </url>
 
     <url>
     <loc>https://joiltonmelo.github.io/404.html</loc>
-    <lastmod>2025-10-07</lastmod>
+    <lastmod>2025-10-11</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>6.0</priority>
   </url>
 
   
