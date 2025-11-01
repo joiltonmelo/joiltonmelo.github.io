@@ -10,13 +10,6 @@
   </url>
 
   <url>
-    <loc>https://joiltonmelo.github.io/english.html</loc>
-    <lastmod>2025-10-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-
-  <url>
     <loc>https://joiltonmelo.github.io/cidades-brasil.html</loc>
     <lastmod>2025-10-26</lastmod>
     <changefreq>monthly</changefreq>
@@ -43,13 +36,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
-
-  <url>
-    <loc>https://joiltonmelo.github.io/404.html</loc>
-    <lastmod>2025-10-26</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>  
+ 
 
 </urlset>
 
