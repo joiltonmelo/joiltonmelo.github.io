@@ -24,7 +24,9 @@
         <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon.png">
 
         <style>
-            * {font-family: inter, serif;}   
+            * {font-family: inter, serif;}  
+
+            .mySlides {display:none;}
         </style>
 
 
@@ -55,7 +57,7 @@
 
     <body class="bg-black">
 
-        <header class="lg:py-5 py-4 lg:px-10 px-5 bg-gradient-to-b from-black z-60 sticky top-0 backdrop-blur-sm bg-black/70">
+        <header class="py-2 lg:px-10 px-5 bg-gradient-to-b from-black z-60 sticky top-0 backdrop-blur-sm bg-black/70">
             <nav class="mx-auto flex justify-between items-center max-md:gap-6">
                 <img src="./img/logo-jm-white.svg" alt="Logo Joilton Melo" class="lg:h-7 h-6">
                 
@@ -87,6 +89,20 @@
 
         </main>
 
+<!-- GALERIA AQUI -->
+<div class="lg:mt-0 lg:col-span-5 py-6 lg:px-10 px-5">
+    <div class="">
+      <img class="mySlides" src="./img/snap-dcontroll-site.webp" alt="DControll" loading="lazy">
+      <img class="mySlides" src="./img/snap-dcontroll.webp" alt="DControll" loading="lazy">
+      <img class="mySlides" src="./img/snap-website.webp" alt="Sites Web Design" loading="lazy">
+      <img class="mySlides" src="./img/snap-villadosbolos.webp" alt="Identidade Visual - Villa dos Bolos" loading="lazy">
+      <img class="mySlides" src="./img/snap-peppers.webp" alt="Logo Peppers" loading="lazy">
+      <img class="mySlides" src="./img/snap-cuattro.webp" alt="Cuattro" loading="lazy">
+  </div> 
+</div>                
+<!-- FINAL GALERIA AQUI -->
+
+
 <section class="py-6 lg:px-10 px-5">
 <div class="mx-auto text-white flex max-md:flex-col items-start justify-between gap-8">
     <div class="max-w-sm w-full group">
@@ -105,6 +121,7 @@
         </div>
 </div>
 </section>
+
 
 <section class="py-6 lg:px-10 px-5 mt-5">
     <div class="mx-auto">
@@ -359,6 +376,23 @@
         ● Web Design em Saúde - SP
     ● Web Design em Vila Mariana - SP</p>
 </div>
+
+<script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
 
 </body>
 </html>
