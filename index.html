@@ -150,8 +150,8 @@
 
 <footer class="py-6 lg:px-10 px-5 mb-5">
     <div class="mx-auto">
-        <h3 class="text-sm mb-2 font-semibold text-white uppercase opacity-70">Ferramentas e Habilidades</h3>
-        <ul class=" flex justify-between items-start text-xs max-md:text-sm max-md:flex-col max-md:gap-6 mt-8">
+        <h3 class="text-sm mb-6 font-semibold text-white uppercase opacity-70">Ferramentas e Habilidades</h3>
+        <ul class=" flex justify-between items-start text-xs max-md:text-sm max-md:flex-col max-md:gap-6">
             <li class="text-white font-medium">UI Design</li>
             <li class="text-white font-medium">Graphic Design</li>
             <li class="text-white font-medium">Logo Design</li>
@@ -387,6 +387,36 @@
     if (myIndex > x.length) {myIndex = 1}    
       x[myIndex-1].style.display = "block";  
   setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+</script>
+
+  <script>
+    let currentScroll = window.pageYOffset;
+    let targetScroll = currentScroll;
+    let isScrolling = false;
+    const ease = 0.02   ; // quanto menor, mais suave
+
+    window.addEventListener("wheel", (e) => {
+      e.preventDefault();
+      targetScroll += e.deltaY;
+      targetScroll = Math.max(
+        0,
+        Math.min(targetScroll, document.body.scrollHeight - window.innerHeight)
+        );
+
+      if (!isScrolling) smoothScroll();
+  }, { passive: false });
+
+    function smoothScroll() {
+      isScrolling = true;
+      currentScroll += (targetScroll - currentScroll) * ease;
+      window.scrollTo(0, currentScroll);
+
+      if (Math.abs(targetScroll - currentScroll) > 0) {
+        requestAnimationFrame(smoothScroll);
+    } else {
+        isScrolling = false;
+    }
 }
 </script>
 
