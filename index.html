@@ -172,6 +172,25 @@
 </footer>
 
 
+<script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000); // Change image every 2 seconds
+}
+</script>
+
+
+
 <div class="mx-auto mb-8 lg:px-10 px-5 hidden">
     <p class="text-sm text-gray-50 font-bold mb-5">Cidades São Paulo - Design Gráfico</p>
     <p class="text-gray-50 opacity-80 leading-snug text-xs mt-5">
@@ -480,25 +499,6 @@
         ● Web Design em Saúde - SP
         ● Web Design em Vila Mariana - SP</p>
 </div>
-
-<script>
-    var myIndex = 0;
-    carousel();
-
-    function carousel() {
-      var i;
-      var x = document.getElementsByClassName("mySlides");
-      for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";  
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-      x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 2000); // Change image every 2 seconds
-}
-</script>
-
-
 
 </body>
 </html>
